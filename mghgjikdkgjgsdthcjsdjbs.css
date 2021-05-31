@@ -1,0 +1,178 @@
+.header {
+    grid-area: hd;
+border : #FEAAFF;
+  background-color: #FFDBD1;
+margin-bottom: 8px;
+margin-left: 8px;
+margin-right: 8px;
+}
+  nav {
+    text-align: center;
+   padding-top: 26px;
+    padding-bottom: 16px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    }
+    nav a {
+      font-size: 20px;
+      padding-left: 30px;
+      padding-right: 30px;
+  }
+      a {
+        color: black;
+        font-family: consolas;
+                }
+    .aheader {
+grid-area: ahd;
+border: #FEAAFF;
+  background-color: #FFDBD1;
+margin-bottom: 8px;
+margin-right: 8px;
+}
+    .bheader {
+  grid-area: bhd;
+  border : #FEAAFF;
+      background-color: #FFDBD1;
+  margin-bottom: 8px;
+  margin-left: 8px;
+  }
+  body {
+        background-color: #FEAAFF;
+        font-family: consolas;
+        color: black;
+        oyioro8  kutdii futkdktud
+                  }
+                  h1 { background-color: #FFDBD1;
+                  font-family: consolas;
+                  color: black;
+        }
+           h2 { background-color: #FFDBD1;
+           font-family: consolas;
+             color: black;
+           }
+           h3 { background-color: #FFDBD1;
+           font-family: consolas;
+             color: black;
+           }
+           h4 { background-color: #FFDBD1;
+           font-family: consolas;
+             color: black;
+           }
+                    .sidebar {
+    grid-area: sd;
+    border : #FEAAFF;
+      background-color: #FFDBD1;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+      }
+      .Main1 {
+    grid-area: Main;
+    font-family: consolas;
+    color: black;
+    border: #FEAAFF;
+    background-color: #FFDBD1;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    background-image: url("DSC03889.jpg");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    }
+       .Main2 {
+    grid-area: Main;
+    color: black;
+    border: #FEAAFF;
+    background-color: #FFDBD1;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    background-image: url("z.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position:
+      }
+          .Main3  {
+    grid-area: Main;
+    color: white;
+    border: #FEAAFF;
+    background-color: #FFDBD1;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    background-image: url("DSC03891.jpg");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+      .Main4  {
+    grid-area: Main;
+    color: white;
+    border: #FEAAFF;
+    background-color: #FFDBD1;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    background-image: url("jszn.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+              .Main5  {
+    grid-area: Main;
+     color: white;
+     border: #FEAAFF;
+     background-color: #FFDBD1;
+     margin-top: 8px;
+     margin-bottom: 8px;
+     margin-left: 8px;
+     margin-right: 8px;
+     background-image: url("DSC03891.jpg");
+     background-size: 50%;
+     background-repeat: no-repeat;
+     background-position: center;
+     }
+                       .bsidebar {
+    grid-area: bsd;
+    border: #FEAAFF;
+    background-color: #FFDBD1;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    background-image: url("s.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+                    }
+  .footer {
+      grid-area: ft;
+      border : #FEAAFF;
+        background-color: #FFDBD1;
+    margin-top: 8px;
+      margin-left: 0px;
+      margin-right: 0px;
+      }
+    .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows:minmax(100px, 1fr);
+    grid-template-areas:
+      "ahd hd hd hd hd hd hd hd bhd"
+      "sd sd Main Main Main Main Main bsd bsd"
+      "sd sd Main Main Main Main Main bsd bsd"
+      "sd sd Main Main Main Main Main bsd bsd"
+      "sd sd Main Main Main Main Main bsd bsd"
+      "sd sd Main Main Main Main Main bsd bsd"
+      "sd sd Main Main Main Main Main bsd bsd"
+      "sd sd Main Main Main Main Main bsd bsd"
+      "sd sd Main Main Main Main Main bsd bsd"
+      "sd sd Main Main Main Main Main bsd bsd"
+      "sd sd Main Main Main Main Main bsd bsd"
+      "ft ft ft ft ft ft ft ft ft";
+}
