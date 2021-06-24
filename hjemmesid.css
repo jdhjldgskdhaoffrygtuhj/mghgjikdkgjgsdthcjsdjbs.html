@@ -1,0 +1,236 @@
+.header {
+    grid-area: hd;
+border : #F29E16;
+  background-color: #B1FF1B;
+margin-bottom: 8px;
+margin-left: 8px;
+margin-right: 8px;
+border-radius: 40px;
+    padding: 20px;
+    }
+    nav {
+    text-align: center;
+   padding-top: 26px;
+    padding-bottom: 16px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    }
+    nav a {
+      font-size: 20px;
+      padding-left: 30px;
+      padding-right: 30px;
+  }
+      a {
+        color: black;
+        font-family: consolas;
+                }
+    .aheader {
+grid-area: ahd;
+border: #F29E16;
+  background-color: #FFD800;
+margin-bottom: 8px;
+margin-right: 8px;
+border-radius: 40px;
+    padding: 20px;
+  }
+    .bheader {
+  grid-area: bhd;
+  border : #F3B762;
+      background-color: #FFD800;
+  margin-bottom: 8px;
+  margin-left: 8px;
+  border-radius: 40px;
+      padding: 20px;
+  }
+  body {
+    background-color: #F29E16;
+        font-family: Consolas Regular;
+        color: black;
+                        }
+                  h1 { background-color: #F29E16;
+                    font-family: Lucida Console;
+                  color: black;
+                  word-spacing: 8px;
+                  }
+           h2 { background-color: #F29E16;
+           font-family: Lucida Sans Regular;
+             color: black;
+             word-spacing: 8px;
+             text-shadow: 1px 1px white;
+             }
+           h3 { background-color: #F29E16;
+           font-family: Segoe UI historic;
+             color: black;
+             word-spacing: 8px;
+           }
+           h4 { background-color: #FFB6EB;
+           font-family: Segoe UI historic;
+             color: black;
+             text-align: right;
+             word-spacing: 8px;
+           }
+           .sidebar1 {
+    grid-area: sd;
+    border : #B1FF1B;
+      background-color: #B1FF1B;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    background-image: url("z.png");
+    background-size: 100%;
+    background-repeat: repeat;
+    background-position: top;
+          }
+      .sidebar2 {
+      grid-area: sd;
+      border : #B1FF1B;
+      background-color: #B1FF1B;
+      margin-top: 8px;
+      margin-bottom: 8px;
+      margin-right: 8px;
+      background-image: url("a.jpg");
+      background-size: 100%;
+      background-repeat: repeat;
+      background-position: top;
+            }
+      .sidebar3 {
+      grid-area: sd;
+      border : #B1FF1B;
+      background-color: #B1FF1B;
+      margin-top: 8px;
+      margin-bottom: 8px;
+      margin-right: 8px;
+      background-image: url("e.jpg");
+      background-size: 100%;
+      background-repeat: repeat;
+      background-position: top;
+
+      }
+      .sidebar4 {
+      grid-area: sd;
+      border : #B1FF1B;
+      background-color: #B1FF1B;
+      margin-top: 8px;
+      margin-bottom: 8px;
+      margin-right: 8px;
+      background-image: url("c.jpg");
+      background-size: 100%;
+      background-repeat: repeat;
+      background-position: top;
+            }
+      .Main1 {
+      grid-area: Main;
+    font-family: consolas;
+    color: black;
+    border: #F29E16;
+    background-color: #F29E16;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    background-image: url("b.jpg");
+    background-size: 99%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 40px;
+        padding: 20px;
+                      }
+        .Main2 {
+    grid-area: Main;
+    color: black;
+    border: #F29E16;
+    background-color: #F29E16;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    background-image: ;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 40px;
+        padding: 20px;
+      }
+          .Main3  {
+    grid-area: Main;
+    color: black;
+    border: #F29E16;
+    background-color: #F29E16;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    background-image: url("a.jpg");
+    background-size: 99%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 40px;
+        padding: 20px;
+    }
+      .Main4  {
+    grid-area: Main;
+    color: black;
+    border: #F29E16;
+    background-color: #F29E16;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    background-image: url("jszn.png");
+    background-size: 99%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 40px;
+        padding: 20px;
+    }
+              .Main5  {
+    grid-area: Main;
+     color: black;
+     border: #F29E16;
+     background-color: #F29E16;
+     margin-top: 8px;
+     margin-bottom: 8px;
+     margin-left: 8px;
+     margin-right: 8px;
+          border-radius: 40px;
+         padding: 20px;
+     }
+                       .bsidebar {
+    grid-area: bsd;
+    border: #B1FF1B;
+    background-color: #B1FFEB;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    background-image: url("s.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: ;
+                    }
+  .footer {
+      grid-area: ft;
+      border : #FFB6EB;
+        background-color: #FFB6EB;
+    margin-top: 8px;
+      margin-left: 0px;
+      margin-right: 0px;
+      border-radius: 40px;
+          padding: 20px;
+      }
+    .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows:minmax(100px, 1fr);
+    grid-template-areas:
+      "ahd hd hd hd hd hd hd hd bhd"
+      "sd sd Main Main Main Main Main bsd bsd"
+      "sd sd Main Main Main Main Main bsd bsd"
+      "sd sd Main Main Main Main Main bsd bsd"
+      "sd sd Main Main Main Main Main bsd bsd"
+      "sd sd Main Main Main Main Main bsd bsd"
+      "sd sd Main Main Main Main Main bsd bsd"
+      "sd sd Main Main Main Main Main bsd bsd"
+      "sd sd Main Main Main Main Main bsd bsd"
+      "sd sd Main Main Main Main Main bsd bsd"
+      "sd sd Main Main Main Main Main bsd bsd"
+      "ft ft ft ft ft ft ft ft ft";
+}
